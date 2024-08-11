@@ -59,7 +59,7 @@ const Edit = () => {
         )}
         <h2>
           {addText.length === 0 ? (
-            <div>No Data</div>
+            <div>No Data Available</div>
           ) : (
             addText.map((ele, index) => (
               <div key={index} style={{ display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
