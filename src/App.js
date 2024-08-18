@@ -1,12 +1,12 @@
 import React from "react";
 import Edit from "./components/edit/Edit";
-import FetchData from "./components/fetch/fetchData";
+// import FetchData from "./components/fetch/fetchData";
 
 const App = () =>{
   return(
     <div>
-      {/* <Edit/> */}
-      <FetchData/>
+      <Edit/>
+      {/* <FetchData/> */}
     </div>
   )
 }
